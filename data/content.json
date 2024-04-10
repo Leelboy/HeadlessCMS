@@ -1,5 +1,6 @@
+console const()
 
-let temp = {
+let activate = {
     "user": {
         "name": "Jones Ferdinand",
         "profile": "../img/photo.png"
