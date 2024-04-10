@@ -32,6 +32,8 @@ async function realfunction() {
 
         data.box.forEach(menuItem => {
             let listItem = document.createElement('div');
+            listItem.innerHTML = `<a href="${menuItem.url}"> ${menuItem.text} </a>`
+            spanHolder.appenChild(listItem);
         })
 
     } catch (errorr) {
