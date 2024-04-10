@@ -25,9 +25,15 @@ fetch("../data/content.json")
 //async functionality
 async function realfunction() {
     try {
+        const spanHolder = document.getElementsBy("card-title gray-text mb-2")
+
         const activate = await fetch("../data/content.json")
         const data = await activate.json();
-        console.log('data: ', data);
+
+        data.box.forEach(menuItem => {
+            let listItem = document.createElement('div');
+        })
+
     } catch (errorr) {
         console.log('error: ', errorr);
     }
