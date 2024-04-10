@@ -1,0 +1,52 @@
+
+let temp = {
+    "user": {
+        "name": "Jones Ferdinand",
+        "profile": "../img/photo.png"
+    },
+    "box": [
+        {
+            "name": "Unresolved",
+            "number": 70
+        },
+        {
+            "name": "Overdue",
+            "number": 16
+        },
+        {
+            "name": "Open",
+            "number": 43
+        },
+        {
+            "name": "Onhold",
+            "number": 64
+        }
+    ],
+    "graph": {
+        "title": "Today's trends",
+        "time": "as of 25 May 2019, 09:41PM",
+        "figure": "../img/graph.png",
+    },
+    "box2": [
+        {
+            "tag": "Resolved",
+            "set": 449
+        },
+        {
+            "tag": "Received",
+            "set": 426
+        },
+        {
+            "tag": "Average first response time",
+            "set": 33"m"
+        },
+        {
+            "tag": "Average response time",
+            "set": 3"h"8"m"
+        },
+        {
+            "tag": "Resolution within SLA",
+            "set": 94"%"
+        },
+    ]
+}

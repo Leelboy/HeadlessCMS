@@ -9,8 +9,8 @@ xhr.send();
 xhr.addEventListener('load', function () {
     try {
         console.log(this.responseText);
-    } catch (error) {
-        console.log('Error: ', error);
+    } catch (errror) {
+        console.log('Error: ', errorr);
     }
 })
 
@@ -19,17 +19,17 @@ xhr.addEventListener('load', function () {
 fetch("../data/content.json")
     .then(response => response.json())
     .then(data => console.log(data))
-    .catch(error => console.log('error: ', error))
+    .catch(errorr => console.log('error: ', errorr))
 
 
 //async functionality
 async function realfunction() {
     try {
-        const temp = await fetch("../data/content.json")
-        const data = await temp.json();
+        const activate = await fetch("../data/content.json")
+        const data = await activate.json();
         console.log('data: ', data);
-    } catch (error) {
-        console.log('error: ', error);
+    } catch (errorr) {
+        console.log('error: ', errorr);
     }
 }
 
